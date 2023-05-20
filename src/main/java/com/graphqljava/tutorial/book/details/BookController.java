@@ -1,4 +1,4 @@
-package com.graphqljava.tutorial.bookDetails;
+package com.graphqljava.tutorial.book.details;
 
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
@@ -27,6 +27,6 @@ public class BookController {
 
     @SchemaMapping
     public Author author(Book book) {
-        return Author.getById(book.getAuthorId());
+        return Author.getById(book.authorId());
     }
 }
