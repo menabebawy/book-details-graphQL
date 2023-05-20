@@ -1,5 +1,6 @@
 # book-details-graphQL
 This static example demonstrates how to create a GraphQL service in Java using Spring for GraphQL.
+Inspired by: https://spring.io/guides/gs/graphql-server/
 
 ### What you need 
  - Java 17
@@ -7,4 +8,4 @@ This static example demonstrates how to create a GraphQL service in Java using S
  - Spring Boot
  
 ### Run
-You will build a service that will accept GraphQL requests at http://localhost:8080/graphql.
+This service accepts GraphQL requests at http://localhost:8080/graphql.
